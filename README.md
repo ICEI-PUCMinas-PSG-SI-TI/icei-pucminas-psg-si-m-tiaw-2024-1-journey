@@ -1,6 +1,6 @@
 # Nome do projeto
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto.
+Escreva um ou dois parágrafo resumindo o objetivo do seu projeto. ABC
 
 ## Alunos integrantes da equipe
 
