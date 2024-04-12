@@ -4,17 +4,17 @@ Escreva um ou dois parágrafo resumindo o objetivo do seu projeto. ABC
 
 ## Alunos integrantes da equipe
 
-* Gabriela Konig
-* João Pedro Valle
+* Gabriela de Souza Konig
+* João Pedro Figueiredo do Valle
 * Lara Ruas
-* Mariana Miyamoto
-* Sther Marinho
-* Rogério
+* Mariana Yuna Campos Miyamoto
+* Sther Marinho Brito
+* Rogério Lima
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Pedro Felipe Alves de Oliveira
+* Kátia Adriana Alves Leite de Barros
 
 ## Instruções de utilização
 
