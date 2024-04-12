@@ -1,6 +1,7 @@
-# Nome do projeto
+# Projeto 7: Jurney
 
-Escreva um ou dois parágrafo resumindo o objetivo do seu projeto. ABC
+O projeto em questão visa o desenvolvimento de um site inovador, intitulado "Journey", com o propósito de auxiliar os viajantes na organização integral de suas experiências, desde o planejamento financeiro até a execução da viagem. Em meio a uma sociedade em constante movimento, onde o tempo é um recurso valioso e as demandas são cada vez mais intensas, surge a necessidade premente de ferramentas que simplifiquem e otimizem o processo de planejamento de viagens, permitindo que os indivíduos desfrutem plenamente de suas aventuras sem o ônus do estresse decorrente da organização.
+
 
 ## Alunos integrantes da equipe
 
