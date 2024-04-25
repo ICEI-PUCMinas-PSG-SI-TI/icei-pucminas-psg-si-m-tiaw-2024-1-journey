@@ -10,7 +10,7 @@ O projeto em questão visa o desenvolvimento de um site inovador, intitulado "Jo
 * Lara Ruas
 * Mariana Yuna Campos Miyamoto
 * Sther Marinho Brito
-* Rogério Gabriel Dias Lima
+
 
 
 ## Professores responsáveis
