@@ -1,31 +1,30 @@
 <<<<<<< HEAD
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Journey 
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Konig
+    given-names: Gabriela 
+  - family-names: Figueiredo
+    given-names: João Pedro
+  - family-names: Ruas
+    given-names: Lara
+  - family-names:Miyamoto
+    given-names: Mariana
+  - family-names: Marinho
+    given-names: Sther
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Alves de Oliveira 
+    given-names: Pedro Felipe 
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names:
+    given-names: Kátia 
 keywords:
-  - 
-  - 
+  - Viagem  
+  - Planejamento 
+  - Organização 
 repository-code: 
 license: CC-BY-4.0
 version: 1.0.0
