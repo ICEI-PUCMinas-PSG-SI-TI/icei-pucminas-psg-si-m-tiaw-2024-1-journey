@@ -1,6 +1,9 @@
-# Documentação do Projeto (TIDocs)
+# Documentação do Projeto Journey
 
-Esta pasta armazena a documentação do projeto para a disciplina de **Trabalho Interdisciplinar 1** dos cursos de Tecnologia da Informação da **[PUC Minas](https://pucminas.br)**. Essa documentação é estruturada na forma de um site que fica disponível por meio do GitHub Pages e pode ser incluído, também, no site da solução hospedada. Um [exemplo publicado do TIDocs](https://webtech-puc-minas.github.io/ti1-template/) está disponível por meio do repositório do **[WebTech PUC Minas](https://github.com/webtech-pucminas)**.
+Documentação da sprint 1 apresentado ao curso de Sistemas de Informação da PUC-MG como requisito para obtenção de nota para conclusão da matéria de Trabalho Interdisciplinar - Aplicações Web 
+
+Professores: Pedro Felipe Alves de Oliveira e Kátia Adriana Alves Leite de Barros
+
 
 A documentação do projeto inclui as seguintes seções:
 
@@ -8,87 +11,141 @@ A documentação do projeto inclui as seguintes seções:
 2. Contexto
 3. Concepção
 4. Metodologia
-5. Solução
-6. FAQ (Questões frequentes)
-7. Referências Bibliográficas
+5. Projeto de Interface
+6. Referências Bibliográficas
 
 O template para o site é estruturado e permite que a equipe evolua a documentação do projeto à medida que avance no desenvolvimento.
 
-# Orientações gerais
+**Introdução**
 
-Esta seção traz explicações breves sobre o conjunto de artefatos que precisam ser incluídos na documentação do projeto com uma conjunto de links importantes para que se entenda como criar cada coisa. 
+O projeto em questão visa o desenvolvimento de um site inovador, intitulado "Journey", com o propósito de auxiliar os viajantes na organização integral de suas experiências, desde o planejamento financeiro até a execução da viagem. Em meio a uma sociedade em constante movimento, onde o tempo é um recurso valioso e as demandas são cada vez mais intensas, surge a necessidade premente de ferramentas que simplifiquem e otimizem o processo de planejamento de viagens, permitindo que os indivíduos desfrutem plenamente de suas aventuras sem o ônus do estresse decorrente da organização.
 
-## Problema
+**1.1	Problema**
+A escolha desse tema é justificada pela crescente demanda por soluções práticas e eficientes para o planejamento de viagens. A vida contemporânea, marcada por uma rotina acelerada e complexa, requer ferramentas que simplifiquem o processo de planejamento e viabilizem uma experiência de viagem mais fluida e gratificante.
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+**1.2 Objetivos**
+O aplicativo "Journey" almeja oferecer uma ampla gama de recursos que abranjam todas as etapas do processo de viagem:
+Planejamento financeiro:
+Elaboração de orçamentos personalizados por destino, grupo e período;
+Controle minucioso dos gastos, segmentando-os em diversas categorias (transporte, hospedagem, alimentação, entre outros);
+Implementação de alertas e notificações para monitorar e manter o orçamento sob controle.
+Organização da viagem:
+Definição de itinerários detalhados, contemplando datas, horários e atividades planejadas;
+Integração com mapas e ferramentas de navegação para facilitar a locomoção durante a viagem;
+Compartilhamento dos itinerários e informações relevantes com amigos e familiares.
+Conteúdo e dicas:
+Acesso a um guia completo de destinos, fornecendo informações sobre pontos turísticos, restaurantes, eventos e atividades locais;
+Sugestões personalizadas para diferentes tipos de viajantes (aventureiros, mochileiros, famílias, etc.);
+Estabelecimento de um fórum online para a troca de experiências entre os usuários.
 
-Nesse momento, o grupo pode optar por fazer uso de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+**1.3 Justificativa**
 
-**Links Úteis**:
+Segundo o pesquisador André Coelho, coordenador de projetos da FGV (Fundação Getúlio Vargas): “Se a pessoa não tem um recurso muito maior, ela faz uma viagem curta, de final de semana. Se ela melhorou o recurso dela, a economia se estabiliza um pouco ou ela consegue um emprego melhor, faz uma viagem mais longa. O turismo sempre, de alguma forma, é parte da cesta de consumo das pessoas.”
+Nesse viés, constata-se a necessidade do brasileiro em planejar o orçamento de suas viagens de maneira mais eficaz.
 
-- [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-- [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-- [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+**1.4 Público alvo**
 
-## Objetivos
+O público-alvo do aplicativo "Journey" abarca uma faixa etária entre 20 e 50 anos, englobando tanto indivíduos pertencentes à classe média baixa quanto à alta. São pessoas que buscam organizar suas viagens de maneira eficaz e conveniente, valorizando soluções que otimizem o tempo e reduzam as complexidades do planejamento. Além disso, são usuários que apreciam tecnologia e ferramentas inovadoras, valorizando experiências personalizadas e dicas relevantes para seus destinos de interesse.
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
-
-**Links Úteis**:
-
-- [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
-## Justificativa
-
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-**Links Úteis**:
-
-- [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
-## Público-Alvo
-
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, ou diagramas de personas, mapa de stakeholders, ou como o grupo achar mais conveniente.
-
-**Links Úteis**:
-
-- [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-- [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
 
 ## Personas
 
-Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que você deve ser enumerar e descrever precisamente e de forma personalizada todos os principais envolvidos com a solução almeja.
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feito pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
-**Links Úteis**:
+Personas
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
+Marcos Vieira
+Idade: 31
+Ocupação: Consultor de viagens
+Personalidade:
+Extrovertido
+curioso
+persistente
+organizado
+disciplinado
 
-- [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-- [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-- [Rock Content](https://rockcontent.com/blog/personas/)
-- [Criar personas (Hotmart)](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
+Motivações:
+Divulgar seu trabalho
+Aumentar seus ganhos
+trazer experiências únicas e simplificadas aos seus clientes
+Conquistar novos clientes que queiram facilitar a organização de suas viagens
+Frustrações:
+Falta de estabilidade financeira
 
-## Histórias de Usuários
+Hobbies, História:
+Reunir amigos e família
+Cozinhar
+Conhecer lugares
+assistir filmes
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-**Links Úteis**:
 
-- [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-- [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+Júlia Lima
+Idade: 28
+Ocupação:Profissional de RI
+Personalidade:
+Aventureira
+Criativa
+Organizada 
+Independente
 
-## Requisitos
 
-Os requisitos de um projeto são classificados em dois grupos:
+Motivações
+Viajar para todos os continentes
+Conhecer diferentes culturas e pessoas
+Experimentar a culinária local 
+Criar memórias que durarão para sempre
+Frustrações
+Falta de tempo para organizar viagens
+Dificuldade de decidir locais onde visitar
+Hobbies, História
+Viajar
+fotografia
+gastronomia
+cultura
 
-- [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
-  correspondem a uma funcionalidade que deve estar presente na plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade, desempenho, confiabilidade, segurança ou outro (ex: suporte a dispositivos iOS e Android).
+Maria Silva
+Idade: 35
+Ocupação: Jornalista
+Personalidade:
+Extrovertida
+Curiosa
+Líder natural
+Motivações
+Realizar sua paixão pela fotografia ao viajar pelo mundo, capturando momentos e culturas diversas.
+Conectar-se com novas pessoas e culturas, enriquecendo sua experiência pessoal e profissional.
 
-Lembre-se que cada requisito deve corresponder à uma e somente uma característica alvo da sua solução. Além disso, certifique-se de que todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+Frustrações
+Dificuldade em acessar informações importantes sobre a viagem quando realiza viagens em grupo.
+Hobbies, História
+Fotografia
+
+**Histórias de usuários**
+A partir da compreensão das experiências e expectativas das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
+
+Júlia Lima
+planejar minhas viagens e ter uma experiência diferenciada 
+evitar estresses e problemas durante minha aventura 
+Júlia Lima
+otimizar o tempo gasto com a organização de roteiros e ter mais facilidade ao fazer o orçamento 
+viajar sem se preocupar em procurar a cada dia algo para fazer no local e para não precisar ficar fazendo contas de seus gastos
+Maria Silva
+organizar uma viagem em grupo, dando a oportunidade de todos participarem das decisões
+conhecer um novo lugar com seus amigos de forma democrática e satisfatória para todos
+Maria Silva
+conciliar locais para visitar que seja relacionado ao seu trabalho como jornalista e locais que deseja conhecer como uma turista
+aproveitar ao máximo suas viagens, utilizando seu tempo para agregar em seu trabalho mas também para satisfazer suas vontades pessoais
+Marcos Vieira
+poder divulgar meu trabalho de consultor de viagens 
+conquistar novos clientes
+Marcos Vieira
+ver quantas pessoas demonstram interesse em meu trabalho e quantas realmente me contratam
+saber se minhas estratégias de marketing estão funcionando 
+
+
+**Requisitos do Projeto**
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
+
 
 **Links Úteis**:
 
