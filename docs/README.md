@@ -143,7 +143,7 @@ ver quantas pessoas demonstram interesse em meu trabalho e quantas realmente me 
 saber se minhas estratégias de marketing estão funcionando 
 
 
-**Requisitos do Projeto**
+## Requisitos do Projeto
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 **Requisitos Funcionais**
@@ -177,7 +177,7 @@ As questões que limitam a execução desse projeto e que se configuram como obr
 - RE02: O aplicativo deve se restringir às tecnologias básicas da Web no Frontend.
 - RE03: A equipe não pode subcontratar o desenvolvimento do trabalho.
 
-**Metodologia**
+## Metodologia
 A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
 
