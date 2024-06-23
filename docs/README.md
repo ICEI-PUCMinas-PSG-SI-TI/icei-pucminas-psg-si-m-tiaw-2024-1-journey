@@ -146,6 +146,29 @@ saber se minhas estratégias de marketing estão funcionando
 **Requisitos do Projeto**
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
+**Requisitos Funcionais**
+
+- RF01: O site deve permitir gestão de dívidas. (Alta prioridade)
+- RF02: O site tem que ter um sistema de contas e links. (Alta prioridade)
+- RF03: O site tem que permitir compartilhar dados entre usuários da mesma viagem (roteiro,carteira,galeria, colaboradores). (Alta prioridade)
+- RF04: O site deve dar sugestões de lugares para visitar. (Baixa Prioridade)
+- RF05: O site deve enviar notificações para quitar dívidas da viagem. (Média Prioridade)
+- RF06: O site deve suportar que todos os participantes da viagem tenham como editar o roteiro. (Alta prioridade)
+- RF07: O site deve ter acesso a localização para o mapa do roteiro de viagem. (Média Prioridade)
+- RF08: O site deve permitir gestão do orçamento. (Baixa Prioridade)
+- RF09: O site deve dar sugestões de lugares para visitar. (Baixa Prioridade)
+- RF10: O site deve possibilitar dar feedback sobre o site. (Média Prioridade)
+- RF11: O site deve permitir que o usuário envie  uma reclamação. (Baixa Prioridade)
+- RF12: O site deverá ter um histórico de viagens contabilizando tudo feito nas viagens anteriores. (Média Prioridade)
+- RF13: O site deverá ter uma galeria de fotos compartilhadas da viagem. (Baixa Prioridade)
+
+**Requisitos não-funcionais**
+
+- RNF01: O site deverá ser compatível com os principais navegadores do mercado. (Alta prioridade)
+- RNF02: O site deverá ter um layout compatível com celulares para visualização de forma adequada. (Alta prioridade)
+- RNF03: O site deverá ser publicado em plataformas acessíveis publicamente na internet. (Alta prioridade)
+- RNF04: O site deverá ter uma interface intuitiva e de fácil entendimento. (Alta prioridade)
+- RNF05: O site deverá ter sua versão mobile compatível com sistemas Android e IOS. (Alta prioridade)
 
 **Links Úteis**:
 
