@@ -170,6 +170,18 @@ O escopo funcional do projeto é definido por meio dos requisitos funcionais que
 - RNF04: O site deverá ter uma interface intuitiva e de fácil entendimento. (Alta prioridade)
 - RNF05: O site deverá ter sua versão mobile compatível com sistemas Android e IOS. (Alta prioridade)
 
+**Restrições**
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas a seguir.
+
+- RE01: O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 13/07/2024.
+- RE02: O aplicativo deve se restringir às tecnologias básicas da Web no Frontend.
+- RE03: A equipe não pode subcontratar o desenvolvimento do trabalho.
+
+**Metodologia**
+A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
+
+
+
 **Links Úteis**:
 
 - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
