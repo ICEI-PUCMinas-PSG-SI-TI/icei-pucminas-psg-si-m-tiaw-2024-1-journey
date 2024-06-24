@@ -1,0 +1,78 @@
+.nav-item{
+    margin: 0 20px;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho{
+    background-color: rgb(140, 187, 225);
+}
+.centro{
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul {
+        text-align: center;
+    }
+    
+    nav li {
+        margin:auto;
+    }
+}
+.btn {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1); 
+    background-color: rgb(231,141,131);
+    color: black;
+}
+
+.btn:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+.nav-item{
+    margin:  20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid{
+background-color: rgb(140, 187, 225);
+}
+
+.botao{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}

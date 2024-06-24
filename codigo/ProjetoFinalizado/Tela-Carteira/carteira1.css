@@ -1,0 +1,126 @@
+/* Configuração geral*/
+/* html{
+    font-family: sans-serif;
+} */
+
+
+/*Navbar*/
+.container-fluid{
+    background-color: rgb(140, 187, 225);
+}
+.nav-item{
+    margin:  20px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(140, 187, 225);
+}
+.btn{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    background-color: rgb(231,141,131);
+    color: black;
+}
+
+.nav-bar>.container-fluid>.btn{
+    background-color: rgb(231, 141, 131) !important;
+}
+
+.btn:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+    background-color: rgb(231, 141, 131);
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        margin:auto;
+    }
+}
+.btn {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    background-color: rgb(231,141,131);
+    color: black;
+}
+
+.btn:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+/*Barra lateral*/
+aside{
+    display: block;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+aside>button{
+    display: block;
+    background-color:rgb(231,141,131);
+    width: 250px;
+    height: 40px;
+    text-decoration: none;
+}
+
+
+#editar{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.botoes{
+    display: block;
+    text-decoration: none;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+/*Corpo da página*/
+h3{
+    /* font-family: 'Courier New', Courier, monospace; */
+    margin-top: 20px;
+}
+.botao{
+    background-color: rgb(231, 141, 131);
+    width: 240px;
+    height: 40px;
+}
+.container>.row>.col-md-4{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}

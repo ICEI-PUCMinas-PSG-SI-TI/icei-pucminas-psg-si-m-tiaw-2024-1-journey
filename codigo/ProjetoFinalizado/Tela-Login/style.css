@@ -1,0 +1,157 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+header {
+    width: 100%;
+}
+
+.nav-item{
+    margin:  20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(140, 187, 225);
+}
+.container-fluid{
+    background-color: rgb(140, 187, 225);
+}
+
+.container-fluid>.btn{
+    background-color: rgb(231, 141, 131);
+}
+.logout{
+    background-color: rgb(231, 141, 131);
+}
+.collapse>.btn{
+    background-color: rgb(231, 141, 131);
+}
+
+.btn{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    background-color: rgb(231,141,131);
+    color: black;
+}
+
+.btn:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        margin:auto;
+    }
+}
+.container {
+   width: 100%;
+  }
+
+.container>.row>.col-md-4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
+
+
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+.form-control {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    font-size: 1rem;
+}
+.form-control::placeholder {
+    color: gray;
+}
+.gender-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.gender-button {
+    width: 32%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.gender-button.active {
+    background-color: rgb(140, 187, 225);
+    color: white;
+}
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(231, 141, 131);
+    border: 1px solid black;
+    color: black;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 50px;
+}
+.submit-button:hover {
+    background-color: rgb(255, 165, 145);
+}

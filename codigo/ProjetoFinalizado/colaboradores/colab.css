@@ -1,0 +1,80 @@
+.nav-item{
+    margin: 0 20px;
+}
+.centro{
+    text-align: center;
+}
+.navcor{
+    color: rgb(140, 187, 225);
+}
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        margin:auto;
+    }
+}
+
+.nav-item{
+    margin:  20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-fluid{
+background-color: rgb(140, 187, 225);
+}
+#search-box {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#search-results {
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    background-color: rgb(231,141,131);
+    color: black;
+}
+
+.btn:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+    background-color: rgb(231,141,131);
+    color: black;
+}
+
+body{
+    font-family: sans-serif;
+}

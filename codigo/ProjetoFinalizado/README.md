@@ -1,0 +1,2 @@
+Para iniciar o json server, basta clicar dias vezes no arquivo start-json-server.bat que está localizado na raiz do projeto.
+Para isso ele deve ser acessado através do explorador de arquivos. NÃO É POSSÍVEL EXECUTAR ESSE ARQUIVO ATRAVES DO VSCODE.
