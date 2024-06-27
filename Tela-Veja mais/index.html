@@ -82,7 +82,8 @@
                     $("#tripResume")[0].value = data[0].resumo;
                     $("#btnCarteira")[0].href = window.location.origin + "/Tela-Carteira/carteira.html?id=" + data[0].id;
                     $("#btnGps")[0].href = window.location.origin + "/gps journey/gps.html?id=" + data[0].id;
-                    $("#btnColaboradores")[0].href = window.location.origin + "/colaboradores/colaboradores.html?id=" + data[0].id;
+                    // $("#btnColaboradores")[0].href = window.location.origin + "/colaboradores/colaboradores.html?id=" + data[0].id;
+                    $("#btnColaboradores")[0].href = "../colaboradores/colaboradores.html?id=" + data[0].id;
                     $("#btnRoteiro")[0].href = window.location.origin + "/Tela-Roteiro/roteiro.html?id=" + data[0].id;
                     $("#btnFotos")[0].href = window.location.origin + "/Tela-Galeria/index.html?id=" + data[0].id;
                     if(data[0].imagem){
