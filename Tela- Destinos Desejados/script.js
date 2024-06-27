@@ -126,6 +126,13 @@ function carregaDesejo(id) {
                 console.log("jaSalvo",jaSalvo);
             }
             if(!jaSalvo){
+                console.log("a", JSON.stringify({
+                    pais_id: dados.id,
+                    foto: dados.foto,
+                    nome: dados.nome,
+                    resumo: dados.resumo,
+                    recomendacao: dados.recomendacao
+                }));
                 fetch (apiUrl + "/destinosSalvos", {
                     method:"POST",
                     body:JSON.stringify({
