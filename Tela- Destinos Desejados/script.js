@@ -142,6 +142,9 @@ function carregaDesejo(id) {
                 }));
                 fetch (apiUrl + "/destinosSalvos", {
                     method:"POST",
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
                     body:JSON.stringify({
                         "pais_id": dados.id,
                         "foto": dados.foto,
