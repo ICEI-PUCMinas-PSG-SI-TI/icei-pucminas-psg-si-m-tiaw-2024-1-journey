@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/styles/style.css">
+    <script src="../assets/js/jsonserver.js"></script>
     <script src="../assets/js/logout.js"></script>
     <script src="../assets/js/autenticado.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
@@ -73,7 +74,7 @@
     <script>
         $(document).ready(function(){
             if(window.location.search){
-                fetch(apiUrl + "/viagens"+ window.location.search)
+                fetch(apiUrl + "/viagens?id="+ window.location.search.substring(4))
                 .then(response => {return response.json()})
                 .then((data) => {
                     console.log(data)
