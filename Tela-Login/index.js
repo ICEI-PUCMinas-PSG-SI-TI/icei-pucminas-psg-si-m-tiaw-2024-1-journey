@@ -34,7 +34,7 @@ function Login() {
             localStorage.setItem("usuario", JSON.stringify(usuarioData));
             //Redireciona para a tela principal
             console.log(window.location.origin)
-            // window.location.href = window.location.origin + "/Tela-Minhas Viagens/minhasviagens.html";
+            window.location.href = "../Tela-Minhas Viagens/minhasviagens.html";
         }else{
             alert("Usuario ou senha incorretos!")
         }
