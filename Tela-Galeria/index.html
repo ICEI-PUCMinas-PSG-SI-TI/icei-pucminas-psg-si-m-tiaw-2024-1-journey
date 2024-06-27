@@ -65,7 +65,7 @@
         });
 
         function carregaFotos() {
-            fetch (`${apiUrl}fotosViagem?viagem_id=` + viagem_id)
+            fetch (`${apiUrl}/fotosViagem?viagem_id=` + viagem_id)
             .then((response) => {return response.json()})
             .then((data) => {
                 console.log("aaaa", data);
