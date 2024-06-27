@@ -133,14 +133,21 @@ function carregaDesejo(id) {
                     resumo: dados.resumo,
                     recomendacao: dados.recomendacao
                 }));
+                console.log("b", JSON.stringify({
+                    "pais_id": dados.id,
+                    "foto": dados.foto,
+                    "nome": dados.nome,
+                    "resumo": dados.resumo,
+                    "recomendacao": dados.recomendacao
+                }));
                 fetch (apiUrl + "/destinosSalvos", {
                     method:"POST",
                     body:JSON.stringify({
-                        pais_id: dados.id,
-                        foto: dados.foto,
-                        nome: dados.nome,
-                        resumo: dados.resumo,
-                        recomendacao: dados.recomendacao
+                        "pais_id": dados.id,
+                        "foto": dados.foto,
+                        "nome": dados.nome,
+                        "resumo": dados.resumo,
+                        "recomendacao": dados.recomendacao
                     })
                 });
             }
