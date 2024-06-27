@@ -1,0 +1,110 @@
+/* html{
+    font-family: sans-serif;
+} */
+
+/*Navbar*/
+.nav-item{
+    margin:  20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(140, 187, 225);
+}
+.container-fluid{
+    background-color: rgb(140, 187, 225);
+}
+
+.container-fluid>.btn{
+    background-color: rgb(231, 141, 131);
+}
+.logout{
+    background-color: rgb(231, 141, 131);
+}
+.collapse>.btn{
+    background-color: rgb(231, 141, 131);
+}
+
+.btn{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    background-color: rgb(231,141,131);
+    color: black;
+}
+
+.btn:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        margin:auto;
+    }
+}
+
+.container>.row>.col{
+    width: 33%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+
+/*Aside*/
+.botao{
+    display: block;
+    margin-left: 20px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+#voltar{
+    background-color: rgb(231, 141, 131);
+    width: 250px;
+    height: 40px;
+}
+#voltardividas{
+    background-color: rgb(231, 141, 131);
+    width: 250px;
+    height: 50px;
+    margin-top: 25px;
+}
+.link{
+    text-decoration: none;
+}
+
+/*Adicionando dívida ou valor a receber*/
+h5{
+    margin-top: 20px;
+}
+.adicionardivida>button{
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(231, 141, 131);
+}
+.adicionarval>button{
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(231, 141, 131);
+}

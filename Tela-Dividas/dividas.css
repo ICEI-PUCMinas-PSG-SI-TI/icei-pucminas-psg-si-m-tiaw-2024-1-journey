@@ -1,0 +1,174 @@
+/* html{
+    font-family: 'Courier New', Courier, monospace;
+} */
+
+
+/*Navbar*/
+.nav-item{
+    margin:  20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(140, 187, 225);
+}
+.container-fluid{
+    background-color: rgb(140, 187, 225);
+}
+
+.container-fluid>.btn{
+    background-color: rgb(231, 141, 131);
+}
+.logout{
+    background-color: rgb(231, 141, 131);
+}
+.collapse>.btn{
+    background-color: rgb(231, 141, 131);
+}
+
+.btn{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    background-color: rgb(231,141,131);
+    color: black;
+}
+
+.btn:hover{
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 200ms ease-in;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav li {
+        margin:auto;
+    }
+}
+
+.container>.row>.col{
+    width: 35%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.container>.row>.colbot{
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    justify-content: center;
+
+}
+
+/*Aside*/
+.botao{
+    display: block;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+#voltar{
+    background-color: rgb(231, 141, 131);
+    width: 250px;
+    height: 40px;
+}
+#editar{
+    background-color: rgb(231, 141, 131);
+    width: 250px;
+    height: 40px;
+    margin-top: 25px;
+}
+.link{
+    text-decoration: none;
+}
+
+/*JavaScript*/
+.novovalor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    align-items: flex-start;
+}
+.novovalor>.impressaoreceber{
+    display: flex;
+
+}
+.impressaoreceber{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+.fa-trash{
+    margin-left: 25px;
+    height: 25px;
+    align-items: end;
+
+}
+.fa-trash:hover{
+    cursor: pointer;
+}
+
+.checkrec{
+    width: 15px;
+    height: 15px;
+
+}
+.checkdiv{
+    width: 15px;
+    height: 15px;
+}
+
+.novadivida{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.impressaopagar{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    align-items: flex-start;
+}
+.exibesomadiv{
+    text-align: center ;
+    margin-bottom: 15px;
+}
+.exibesomarec{
+    text-align: center ;
+    margin-bottom: 15px;
+}
+#titexibe{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.dividapaga{
+    text-decoration: line-through;
+}
+
+.valorrecebido {
+    text-decoration: line-through;
+}

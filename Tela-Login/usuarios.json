@@ -1,0 +1,12 @@
+{
+  "usuarios": [
+    {
+      "id": "aef9",
+      "nome": "Gabriela Konig",
+      "email": "gabrielak831@gmail.com",
+      "telefone": "31 99988-2348",
+      "nascimento": "09/12/2005",
+      "genero": "Feminino"
+    }
+  ]
+}
