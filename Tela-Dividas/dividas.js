@@ -97,7 +97,7 @@ function CarregaDividas(){
 
 //Apagar dívida
 function ApagarDivida(id){
-  fetch('http://localhost:3000/dividas/' + id, {method:"DELETE"})
+  fetch(apiUrl +'/dividas/' + id, {method:"DELETE"})
   alert("Dívida apagada")
 }
 
@@ -106,7 +106,7 @@ function DividaPaga(index, divida, pagoOuNao){
 
   dividas[index].pago=true
 
-  fetch('http://localhost:3000/dividas/' + divida.id, {
+  fetch(apiUrl +'/dividas/' + divida.id, {
     method: 'PUT',
     headers: {
       'Content-Type': 'application/json'
