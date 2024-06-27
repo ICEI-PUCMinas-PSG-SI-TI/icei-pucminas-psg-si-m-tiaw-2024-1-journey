@@ -97,7 +97,9 @@ function CarregaDividas(){
 
 //Apagar dívida
 function ApagarDivida(id){
-  fetch(apiUrl +'/dividas/' + id, {method:"DELETE"})
+  fetch(apiUrl +'/dividas/' + id, {method:"DELETE"}).then(()=>{
+    CarregaDividas();
+  })
   alert("Dívida apagada")
 }
 
@@ -205,7 +207,9 @@ mostrarsomareceber.innerHTML=`<h3>${numberFormat.format(somaval)}</h3>`
 
 //Deletar
 function DeletarReceber(id){
-  const response = fetch(urlReceber + '/' + id, {method:'DELETE'})
+  const response = fetch(urlReceber + '/' + id, {method:'DELETE'}).then(()=>{
+    CarregaValoresRec();
+  })
   alert("Valor deletado com sucesso!")
 }
 
