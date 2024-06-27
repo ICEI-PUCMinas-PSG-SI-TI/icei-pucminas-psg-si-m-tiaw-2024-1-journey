@@ -20,6 +20,7 @@ function Login() {
     }
     let query = new URLSearchParams(params).toString();
     console.log("Aqui", apiUrl);
+    console.log("Aqui", `${apiUrl}/usuarios?${query}`);
     fetch (`${apiUrl}/usuarios?${query}`,{
         method:'GET',
         headers: {
