@@ -121,8 +121,8 @@ function carregaDesejo(id) {
         .then((lista) => {
             let jaSalvo = null;
             if(lista.length > 0){
-                console.log("dados.pais_id",dados.pais_id);
-                jaSalvo = lista.find(item => item.id == dados.pais_id);
+                console.log("dados.pais_id",dados.id);
+                jaSalvo = lista.find(item => item.pais_id == dados.id);
                 console.log("jaSalvo",jaSalvo);
             }
             if(!jaSalvo){
