@@ -38,7 +38,7 @@ function saveData() {
     .then(response => {return response.json()})
     .then((data) => {
         data.forEach((item)=>{
-            fetch('http://localhost:3000/roteiro/' + item.id, {method:"DELETE"})
+            fetch(apiUrl + '/roteiro/' + item.id, {method:"DELETE"})
         })
     });
     let arraySave = [];

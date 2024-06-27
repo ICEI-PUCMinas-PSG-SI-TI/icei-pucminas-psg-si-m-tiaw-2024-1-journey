@@ -1,6 +1,8 @@
 //Pegando "API"
-const urldividas= 'http://localhost:3000/dividas'
-const urlreceber='http://localhost:3000/receber'
+// const urldividas= 'http://localhost:3000/dividas'
+// const urlreceber='http://localhost:3000/receber'
+const urldividas= apiUrl+'/dividas';
+const urlreceber=apiUrl+'/receber';
 
 $(document).ready(function (){
     document.getElementById('valdivida').value = "";
