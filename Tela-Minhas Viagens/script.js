@@ -8,7 +8,7 @@ $(document).ready(function () {
     }
 })
 
-fetch(`${apiUrl}viagens`)
+fetch(`${apiUrl}/viagens`)
 .then(response => {return response.json()})
 .then((data) => {
     //console.log(data)
