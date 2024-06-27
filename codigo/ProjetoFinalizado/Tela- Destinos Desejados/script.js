@@ -1,4 +1,4 @@
-fetch("http://localhost:3000/feedback")
+fetch(apiUrl + "/feedback")
 .then(response => {return response.json()})
 .then((data) => {
     carregaFeedbacks(data)
@@ -23,7 +23,7 @@ function carregaFeedbacks(dados) {
     listaFeedbacks[0].innerHTML = htmlFeedbacks;
 }
 
-fetch("http://localhost:3000/desejo")
+fetch(`${apiUrl}/desejo`)
 .then(response => {return response.json()})
 .then((data) => {
     carregaDestinos(data)
@@ -42,7 +42,7 @@ function carregaDestinos(dados) {
 }
 
 function carregaDestinosSalvos() {
-    fetch("http://localhost:3000/destinosSalvos")
+    fetch(apiUrl +"/destinosSalvos")
     .then(response => {return response.json()})
     .then((dados) => {
         let listaDestinos = $("#listaviagens");
@@ -100,7 +100,7 @@ function carregaDestinosSalvos() {
 
 function removeSalvo(id) {
     console.log(id)
-    fetch("http://localhost:3000/destinosSalvos/" + id, {method: "DELETE"})
+    fetch(apiUrl + "/destinosSalvos/" + id, {method: "DELETE"})
 }
 
 $(document).ready(function(){
@@ -112,11 +112,11 @@ $(document).ready(function(){
 })
 
 function carregaDesejo(id) {
-    fetch("http://localhost:3000/desejo/" + id)
+    fetch(`${apiUrl}/desejo/` + id)
     .then(response => response.json())
     .then((dados) => {
         console.log(dados);
-        fetch ("http://localhost:3000/destinosSalvos")
+        fetch (apiUrl +"/destinosSalvos")
         .then(response => response.json())
         .then((lista) => {
             let jaSalvo = null;
@@ -126,7 +126,7 @@ function carregaDesejo(id) {
                 console.log("jaSalvo",jaSalvo);
             }
             if(!jaSalvo){
-                fetch ("http://localhost:3000/destinosSalvos", {
+                fetch (apiUrl +"/destinosSalvos", {
                     method:"POST",
                     body:JSON.stringify({
                         pais_id: dados.id,

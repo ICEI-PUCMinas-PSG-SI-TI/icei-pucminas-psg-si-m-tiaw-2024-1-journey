@@ -8,7 +8,7 @@ function salvaFeedback() {
 
     if (feedback) {
         $.ajax({
-            url: "http://localhost:3000/feedback",
+            url: apiUrl + "feedback",
             method: "POST",
             contentType: "application/json",
             data: JSON.stringify({ 

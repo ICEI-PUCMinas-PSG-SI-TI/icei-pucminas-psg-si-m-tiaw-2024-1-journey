@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../assets/styles/style.css">
     <script src="../assets/js/logout.js"></script>
     <script src="../assets/js/autenticado.js"></script>
+    <script src="../assets/js/jsonserver.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Veja Mais</title>
 </head>
@@ -73,7 +74,7 @@
     <script>
         $(document).ready(function(){
             if(window.location.search){
-                fetch("http://localhost:3000/viagens"+ window.location.search)
+                fetch(apiUrl +"/viagens"+ window.location.search)
                 .then(response => {return response.json()})
                 .then((data) => {
                     console.log(data)
@@ -98,7 +99,7 @@
         function cadastrarViagem() {
             let nomeViagem = $("#tripName")[0].value;
             let resumoViagem = $("#tripResume")[0].value;
-            fetch ("http://localhost:3000/viagens",{
+            fetch (apiUrl +"/viagens",{
                 method:'POST',
                 headers: {
                     'Content-Type': 'application/json'

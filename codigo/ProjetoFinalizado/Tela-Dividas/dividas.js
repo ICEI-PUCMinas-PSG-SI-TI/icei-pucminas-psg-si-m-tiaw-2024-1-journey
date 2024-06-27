@@ -1,5 +1,5 @@
-var urlDividas= 'http://localhost:3000/dividas';
-var urlReceber= 'http://localhost:3000/receber';
+var urlDividas= apiUrl +'/dividas';
+var urlReceber= apiUrl +'/receber';
 
 var dividas = [];
 var receber = [];

@@ -65,7 +65,7 @@
         });
 
         function carregaFotos() {
-            fetch (`${apiUrl}fotosViagem?viagem_id=` + viagem_id)
+            fetch (`${apiUrl}/fotosViagem?viagem_id=` + viagem_id)
             .then((response) => {return response.json()})
             .then((data) => {
                 console.log("aaaa", data);
@@ -91,7 +91,7 @@
                 const reader = new FileReader();
                 reader.onload = (e) => {
                     const base64String = e.target.result;
-                    fetch (`${apiUrl}fotosViagem`,{
+                    fetch (`${apiUrl}/fotosViagem`,{
                         method:'POST',
                         headers: {
                             'Content-Type': 'application/json'
@@ -107,7 +107,7 @@
         });
 
         function deleteImage(imagem_id) {
-            fetch(`${apiUrl}fotosViagem/` + imagem_id, {method: "DELETE"});
+            fetch(`${apiUrl}/fotosViagem/` + imagem_id, {method: "DELETE"});
             carregaFotos();
         }
 

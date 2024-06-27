@@ -46,7 +46,7 @@ async function CriarConta() {
             // console.log(fotoUsuario);
             // Exibir a string Base64 na página
             // $('#output').text(base64String);
-            fetch ("http://localhost:3000/usuarios",{
+            fetch (apiUrl +"/usuarios",{
                 method:'POST',
                 headers: {
                     'Content-Type': 'application/json'
