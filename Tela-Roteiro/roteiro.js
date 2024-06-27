@@ -1,7 +1,7 @@
 var viagem_id = window.location.search.substring(4);
 var listaDias = [];
 $(document).ready(function (){
-    fetch ("http://localhost:3000/roteiro?viagem_id=" + viagem_id,{
+    fetch (apiUrl + "/roteiro?viagem_id=" + viagem_id,{
         method:'GET',
         headers: {
             'Content-Type': 'application/json'
@@ -29,7 +29,7 @@ function carregaDados(data) {
 //Salva os dados da tela no localStorage
 function saveData() {
     atualizaDados();
-    fetch ("http://localhost:3000/roteiro?viagem_id=" + viagem_id,{
+    fetch (apiUrl + "/roteiro?viagem_id=" + viagem_id,{
         method:'GET',
         headers: {
             'Content-Type': 'application/json'
@@ -49,7 +49,7 @@ function saveData() {
             //     fetch('http://localhost:3000/roteiro/' + tarefa.id, {method:"DELETE"})
             // }
 
-            fetch ("http://localhost:3000/roteiro",{
+            fetch (apiUrl + "/roteiro",{
                 method:'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -92,7 +92,7 @@ function loadData() {
 //Carrega os dados salvos anteriormente
 function loadPage() {
     // console.log("abc");
-    fetch("http://localhost:3000/roteiro?viagem_id="+ viagem_id)
+    fetch(apiUrl + "/roteiro?viagem_id="+ viagem_id)
     .then(response => {return response.json()})
     .then((data) => {
         // console.log(data)

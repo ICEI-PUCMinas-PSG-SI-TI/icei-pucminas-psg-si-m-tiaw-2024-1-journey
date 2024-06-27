@@ -9,7 +9,7 @@ $(document).ready(function (){
 
 
 function buscaUsuarios() {
-  fetch ("http://localhost:3000/usuarios")
+  fetch (apiUrl + "/usuarios")
   .then((response) => {return response.json()})
   .then((data) => {
       console.log($("#usuarios")[0])
@@ -27,7 +27,7 @@ console.log(colaboradores)
     return;
   }
 
-  fetch ("http://localhost:3000/colaboradores",{
+  fetch (apiUrl + "/colaboradores",{
     method:'POST',
     headers: {
         'Content-Type': 'application/json'
@@ -43,7 +43,7 @@ console.log(colaboradores)
 }
 
 function buscaColaboradores() {
-  fetch ("http://localhost:3000/colaboradores?viagem_id=" + viagem_id)
+  fetch (apiUrl + "/colaboradores?viagem_id=" + viagem_id)
   .then((response) => {return response.json()})
   .then((data) => {
       console.log("data", data);
@@ -59,7 +59,7 @@ function buscaColaboradores() {
 }
 
 function carregaUsuario(usuarioId) {
-  fetch ("http://localhost:3000/usuarios?id=" + usuarioId)
+  fetch (apiUrl + "/usuarios?id=" + usuarioId)
   .then((response) => {return response.json()})
   .then((data) => {
       // console.log($("#usuarios")[0])

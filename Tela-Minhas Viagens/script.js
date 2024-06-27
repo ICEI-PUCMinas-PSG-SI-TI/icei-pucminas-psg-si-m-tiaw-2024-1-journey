@@ -15,7 +15,7 @@ fetch(`${apiUrl}viagens`)
     carregaDados(data)
 });
 
-fetch("http://localhost:3000/feedback")
+fetch(apiUrl + "/feedback")
 .then(response => {return response.json()})
 .then((data) => {
     //console.log(data)

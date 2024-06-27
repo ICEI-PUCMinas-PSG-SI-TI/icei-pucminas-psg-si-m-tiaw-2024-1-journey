@@ -5,7 +5,7 @@ function newTask() {
 
     if (novaReclamacao) {
         $.ajax({
-            url: "http://localhost:3000/reclamacoes",
+            url: apiUrl + "/reclamacoes",
             method: "POST",
             contentType: "application/json",
             data: JSON.stringify({ texto: novaReclamacao }),

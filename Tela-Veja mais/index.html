@@ -73,7 +73,7 @@
     <script>
         $(document).ready(function(){
             if(window.location.search){
-                fetch("http://localhost:3000/viagens"+ window.location.search)
+                fetch(apiUrl + "/viagens"+ window.location.search)
                 .then(response => {return response.json()})
                 .then((data) => {
                     console.log(data)
@@ -98,7 +98,7 @@
         function cadastrarViagem() {
             let nomeViagem = $("#tripName")[0].value;
             let resumoViagem = $("#tripResume")[0].value;
-            fetch ("http://localhost:3000/viagens",{
+            fetch (apiUrl + "/viagens",{
                 method:'POST',
                 headers: {
                     'Content-Type': 'application/json'
