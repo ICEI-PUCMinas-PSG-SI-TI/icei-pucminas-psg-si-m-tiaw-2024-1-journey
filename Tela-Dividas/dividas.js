@@ -218,7 +218,7 @@ function ValorRecebido(index, recebimento, pagoOuNao){
   receber[index].pago="true"
 
 
-  fetch('http://localhost:3000/receber/' + recebimento.id, {
+  fetch(apiUrl +'/receber/' + recebimento.id, {
     method: 'PATCH',
     headers: {
       'Content-Type': 'application/json'
